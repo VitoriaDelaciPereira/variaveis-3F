@@ -15,10 +15,10 @@ console.log(idade);
 //Agência de viagens Hawaii Paris Nova York Rio de Janeiro Tóquio
 const listaDeDestinos = new Array(
   "Hawaii",
-  "Paris",
-  "Nova York",
-  "Rio de Janeiro",
-  "Tóquio"
+  " Paris",
+  " Nova York",
+  " Rio de Janeiro",
+  " Tóquio"
 );
 
 console.log(listaDeDestinos);
@@ -29,4 +29,13 @@ listaDeDestinos.push("Auracária");
 listaDeDestinos.push("Barcelona");
 console.log(listaDeDestinos);
 
+const idadeComprador = 17;
+
+if(idadeComprador >= 18) {
+  console.log("Comprador maior de idade");
+  console.log("destinos disponíveis: " + listaDeDestinos);
+} else {
+  console.log("comprador menor de idade");
+  console.log("Você é menor de idade");
+}
 
