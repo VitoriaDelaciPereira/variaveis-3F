@@ -35,7 +35,7 @@ if(idadeComprador >= 18) {
   console.log("Comprador maior de idade");
   console.log("destinos disponíveis: " + listaDeDestinos);
 } else {
-  console.log("comprador menor de idade");
+  console.log("Não foi possível consluir a compra");
   console.log("Você é menor de idade");
 }
 
