@@ -30,7 +30,20 @@ listaDeDestinos.push("Coronel vivida");
 listaDeDestinos.push("Curitiba")
 listaDeDestinos.push("Auracária");
 listaDeDestinos.push("Barcelona");
+
 console.log(listaDeDestinos);
+
+const loginCerto = "vitória";
+const senhaCerta = 123;
+
+var login = entrada("Qual é o seu login? ");
+var senha = entrada("Digite sua senha: ");
+
+while(login != loginCerto || senha != senhaCerta){
+  console.log ("Login ou senha incorretos");
+  login = entrada("Qual o seu login? ");
+  senha = entrada("Digite sua senha: ");
+}
 
 var nomeComprador = entrada("Digite seu nome: ");
 var idadeComprador = entrada("Qual a sua Idade?");
